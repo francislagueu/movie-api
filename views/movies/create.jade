@@ -1,0 +1,16 @@
+form(method="POST", action="/movies")
+    div
+        label(for="name")
+            Title
+        input(name="name" type="text")
+     div
+        label(for="release_date")
+            Release date
+        input(name="release_date" type="date")
+     div
+        label(for="director")
+            Director
+        input(name="director" type="text")
+     div
+        input(type="submit" value="Create movie")
+    
